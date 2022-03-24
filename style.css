@@ -157,13 +157,13 @@ header:before{
     
     .header_burger.\.active:before{
         transform: rotate(45deg);
-        left: -10px;
+        left: 0px;
         margin-top: 9px;
         transition: all 0.5s ease 0s;
     }
     
     .header_burger.\.active:after{
-        left: -10px;
+        left: 0;
         transform: rotate(-45deg);
         margin-bottom: 9px;
         transition: all 0.5s ease 0s;
